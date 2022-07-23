@@ -15,7 +15,6 @@ const Footer = () => {
       }}
     >
       <Toolbar>
-        <div style={{ flexGrow: 1 }}></div>
         <Box
           style={{
             display: "flex",
@@ -27,16 +26,21 @@ const Footer = () => {
           <Typography>
             To the extent possible under law, the Tennessee Pirate Party has
             waived all copyright and related or neighboring rights to the
-            content of this website
+            content of this website. The source can be found{" "}
+            <a
+              href="https://github.com/surrealrezzy/volunteerpirates"
+              style={{ color: "#DBE2E9" }}
+            >
+              here
+            </a>
           </Typography>
         </Box>
-
         <div style={{ flexGrow: 1 }}></div>
         <MenuItem style={{ padding: 4 }}>
-          <SocialIcon url="https://twitter.com/jaketrent" />
+          <SocialIcon url="https://twitter.com/PiratesOfTN" />
         </MenuItem>
         <MenuItem style={{ padding: 4 }}>
-          <SocialIcon url="https://reddit.com/" />
+          <SocialIcon url="https://www.reddit.com/r/PiratePartyTN/" />
         </MenuItem>
         <MenuItem style={{ padding: 4 }}>
           <SocialIcon url="https://discord.com/invite/GCYUKvNHMB" />
