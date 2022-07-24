@@ -13,15 +13,17 @@ const Page = ({ children }: Props) => {
         background: "#DBE2E9",
         minHeight: "100vh",
         margin: -10,
+        display: "flex",
+        flexDirection: "column",
       }}
     >
       <Header />
       <Box
         style={{
-          padding: "12px",
-          margin: 224,
+          marginLeft: "12%",
+          marginRight: "12%",
           marginTop: 28,
-          marginBottom: 14,
+          flexGrow: 1,
         }}
       >
         {children}
