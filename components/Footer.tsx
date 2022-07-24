@@ -6,11 +6,10 @@ import { SocialIcon } from "react-social-icons";
 const Footer = () => {
   return (
     <AppBar
-      position="static"
+      position="relative"
       style={{
         background: "#393D47",
         color: "#DBE2E9",
-        position: "fixed",
         bottom: 0,
       }}
     >
