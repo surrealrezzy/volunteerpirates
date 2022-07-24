@@ -41,20 +41,20 @@ const Home: NextPage = () => {
           </a>{" "}
           and meet us in the #tennessee channel
         </Typography>
-        {/* <Divider />
-      <Subscribe />
-      <Divider />
-      <Typography
-        variant="h6"
-        style={{
-          padding: 14,
-          fontFamily: "Monteserrat",
-        }}
-      >
-        This is currently a work in progress, if you want to be notified of any
-        updates, go ahead and sign up for our mailing list. Don't worry, your
-        email will stay secret
-      </Typography> */}
+        <Divider />
+        <Subscribe />
+        <Divider />
+        <Typography
+          variant="h6"
+          style={{
+            padding: 14,
+            fontFamily: "Monteserrat",
+          }}
+        >
+          This is currently a work in progress, if you want to be notified of
+          any updates, go ahead and sign up for our mailing list. Don't worry,
+          your email will stay secret
+        </Typography>
       </>
     </Page>
   );
