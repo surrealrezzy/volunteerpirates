@@ -19,9 +19,8 @@ const Page = ({ children }: Props) => {
       <Box
         style={{
           padding: "12px",
-          margin: 224,
+          margin: "12%",
           marginTop: 28,
-          marginBottom: 14,
         }}
       >
         {children}
